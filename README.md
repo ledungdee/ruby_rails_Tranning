@@ -6,4 +6,10 @@
 - docker compose run web rails db:create
 - docker compose up 
 
-### Access link: http://0.0.0.0:3001/
+### Access link: http://localhost:3001/
+
+
+### Test with Ruby
+
+- docker compose run web bash
+- ruby hello_world.rb
